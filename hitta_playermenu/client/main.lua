@@ -1,5 +1,3 @@
-ESX = exports['es_extended']:getSharedObject()
-
 local MainMenu = RageUI.CreateMenu('Player Menu', 'Your toolbox', 1320, 80)
 local fpsMenu = RageUI.CreateSubMenu(MainMenu, 'FPS', 'Increase your fps', 1320, 80)
 local hudMenu = RageUI.CreateSubMenu(MainMenu, 'HUD', 'Edit your hud', 1320, 80)
