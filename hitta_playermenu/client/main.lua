@@ -145,13 +145,8 @@ function RageUI.PoolMenus:Menu()
 
     creditsMenu:IsVisible(function(Items)
 
-        Items:AddButton('maybe k4 soon? | HiTTA', nil, { IsDisabled = false }, function()
+        Items:AddButton('K4 | HiTTA', nil, { IsDisabled = false }, function()
         end)
-
-        Items:AddButton('K4 | tcprestt', 'For the support sytem', { IsDisabled = false }, function()
-        end)
-
-
     end, function()
     end)
 
